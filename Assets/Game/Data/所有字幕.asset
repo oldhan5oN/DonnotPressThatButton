@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341a7983f05815a40b261d067b93e9be, type: 3}
+  m_Name: "\u6240\u6709\u5B57\u5E55"
+  m_EditorClassIdentifier: 
+  lines:
+  - id: 2
+    texts:
+    - "\u6C27\u6C14\u592A\u4F4E\u4E86"
+    - "\u5934\u597D\u6655..."
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 3
+    texts:
+    - "\u597D\u96BE\u53D7"
+    - "\u5FEB\u575A\u6301\u4E0D\u4E0B\u53BB\u4E86"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 4
+    texts:
+    - "\u7535\u529B\u544A\u6025\uFF1F"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 5
+    texts:
+    - "\u8BE5\u6B7B...\u77ED\u8DEF\u4E86"
+    - "\u5E7F\u64AD\u67F1\u8FD8\u80FD\u8FD0\u884C\u5417"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 6
+    texts:
+    - "\u4F3C\u4E4E\u53EF\u4EE5\u5E7F\u64AD\u4E86"
+    - "\u4F1A\u6709\u4EBA\u542C\u89C1\u5417..."
+    - "\u6211\u7684\u58F0\u97F3"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 8
+    texts:
+    - "\u62DC\u6258"
+    - "\u6211\u5FEB\u5D29\u6E83\u4E86"
+    - "\u4E3A\u4EC0\u4E48\u8FD8\u6CA1\u6709\u7ED3\u675F..."
+    - "\u623F\u95F4\u53E6\u4E00\u4FA7\u7684\u95E8\u901A\u5411\u5B87\u5B99"
+    - "\u4E5F\u8BB8\u8FD9\u624D\u662F\u6211\u7684\u5F52\u5BBF"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 9
+    texts:
+    - "\u4E00\u70B9\u7535\u529B\u90FD\u6CA1\u6709\u7559\u4E0B"
+    - "\u771F\u662F\u7CDF\u7CD5..."
+    - "\u770B\u6765\u53EF\u4EE5\u597D\u597D\u7761\u4E00\u89C9\u4E86"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0
+  - id: 1
+    texts:
+    - "\u5934\u597D\u6655"
+    - "\u8FD9\u91CC\u662F\u54EA"
+    charInterval: 0.06
+    holdTime: 2.5
+    priority: 0
+    playOnce: 0

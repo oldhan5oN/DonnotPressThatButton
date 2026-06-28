@@ -31,6 +31,9 @@
 # Visual Studio cache directory
 .vs/
 
+# Claude Code local session files
+.claude/
+
 # Gradle cache directory
 .gradle/
 
@@ -76,3 +79,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# -------------------------------------------------
+# Assets/Res: 二进制资源通过 GitHub Release 分发
+# 仓库只保留 .meta 文件，以保证 Unity GUID 引用不丢失。
+# 协作者需从 Release 下载 Res.zip 并解压到 Assets/Res/。
+# 注意：必须先取消忽略目录本身，才能让目录内的 .meta 被重新包含。
+# -------------------------------------------------
+/Assets/Res/**
+!/Assets/Res/
+!/Assets/Res/**/
+!/Assets/Res/**/*.meta

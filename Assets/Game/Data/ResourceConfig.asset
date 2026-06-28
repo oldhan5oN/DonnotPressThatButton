@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbb2120cde3f03499eea10d15bbc05a, type: 3}
+  m_Name: ResourceConfig
+  m_EditorClassIdentifier: 
+  initialPower: 15
+  initialOxygen: 100
+  initialMental: 100
+  maxValue: 100
+  oxygenDecayPerSecond: 0.5
+  mentalDecayPerSecond: 0.3
+  lowOxygenThreshold: 30
+  lowOxygenMentalMultiplier: 2.5
+  oxygenRestoreAmount: 100
+  mentalRestoreAmount: 60
+  costOxygen: 3
+  costElectroshock: 2
+  costUnlock: 1
+  costBroadcast: 10
+  lowPowerFailThreshold: 10
