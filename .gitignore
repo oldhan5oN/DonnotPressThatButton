@@ -90,3 +90,8 @@ crashlytics-build.properties
 !/Assets/Res/
 !/Assets/Res/**/
 !/Assets/Res/**/*.meta
+
+# GitHub Release asset packages
+# 大型二进制资源通过 Release 分发，不进入 git 仓库
+DonnotPressThatButton-Res-*.zip
+DonnotPressThatButton-Res-*.zip.meta
